@@ -70,3 +70,19 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  assets:
+  - lib/photo/candy-shop.jpg
+  - lib/photo/childhood-in-a-picture.jpg
+  - lib/photo/contained.jpg
+  - lib/photo/dragon.jpg
+  - lib/photo/free_hugs.jpg
+  - lib/photo/gravity-falls.png
+  - lib/photo/icecreamtruck.png
+  - lib/photo/keyclack.jpg
+  - lib/photo/overkill.png
+  - lib/photo/say-hello-to-barry.jpg
+  - lib/photo/space-skull.jpg
+  - lib/photo/the-old-fashioned.png
+  - lib/photo/tornado.jpg
+  - lib/photo/undo.jpg
+  - lib/photo/white-dragon.jpg
