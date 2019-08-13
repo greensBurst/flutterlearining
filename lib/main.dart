@@ -4,6 +4,7 @@ import 'demo/bottom_navbar_demo.dart';
 import 'demo/basic_demo.dart';
 import 'demo/layout_demo.dart';
 import 'demo/view_demo.dart';
+import 'demo/sliver_demo.dart';
 
 void main() => runApp(App());
 
@@ -13,6 +14,7 @@ class App extends StatelessWidget {
     // TODO: implement build
     return MaterialApp(
         debugShowCheckedModeBanner: false,
+        // home: Home(),
         home: Home(),
         theme: ThemeData(
           primarySwatch: Colors.yellow,
@@ -64,7 +66,8 @@ class Home extends StatelessWidget {
             ListViewDemo(),
             BasicDemo(),
             LayoutDemo(),
-            ViewDemo(),
+            SliverDemo(),
+            // ViewDemo(),
             // Icon(Icons.local_florist, size: 128.0, color: Colors.black12),
             // Icon(Icons.access_alarms, size: 128.0, color: Colors.black12),
             // Icon(Icons.work, size: 128.0, color: Colors.black12),
